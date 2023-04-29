@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <div class="d-flex">
+      <div
+        class="col-md-2 px-4"
+        style="background-color: blueviolet; height: 100vh; color: white" 
+        <!-- image="background-image: background.jpg" -->
+        >
+       
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col" class="pt-3 pb-3">&nbsp;</th>
+            </tr>
+          </thead>
+          <tbody class="menu">
+            <tr style="border: none">
+              <th scope="row"><i class="bi bi-pie-chart"></i> DASHBOARD</th>
+            </tr>
+            <tr>
+              <th scope="row">
+                <i class="bi bi-person-circle"></i> USER PROFILE
+              </th>
+            </tr>
+            <tr style="opacity: 0.5;">
+              <th scope="row"><i class="bi bi-table"></i> TABLE LIST</th>
+            </tr>
+            <tr>
+              <th scope="row"><i class="bi bi-card-list"></i> TYPOGRAPHY</th>
+            </tr>
+            <tr>
+              <th scope="row"><i class="bi bi-flower3"></i> ICONS</th>
+            </tr>
+            <tr>
+              <th scope="row"><i class="bi bi-geo-alt"></i> MAPS</th>
+            </tr>
+            <tr>
+              <th scope="row"><i class="bi bi-bell"></i> NOTIFICATIONS</th>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="col-md-10">
+        <navbar class="row d-flex justify-content-between px-3 mx-0 navbar-light bg-light">
+          <h3 class="navbar-brand">Dashboard</h3>
+          <div class="d-flex">
+            <button class="btn btn-light">Account</button>
+            <button
+              class="btn btn-light dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Dropdown
+            </button>
+            <div class="dropdown-content">
+            <a class="dropdown-menu" href="#"> Shivani Tiwari</a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"></div>
+            </div>
+            <button class="btn btn-light">Logout</button>
+          </div>
+        </navbar>
+
+        <div
+          class="container mt-3"
+          style="
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1),
+              0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          "
+        >
+          <table class="table table-striped">
+            <div class="bg-light" style="background-color: white">
+              <h4 style="font-weight: light">Striped Table with Hover</h4>
+              <p>Here is a subtitle for this table</p>
+            </div>
+            <thead>
+              <tr>
+                <th scope="col">ID</th>
+                <th scope="col">NAME</th>
+                <th scope="col">SALARY</th>
+                <th scope="col">COUNTRY</th>
+                <th scope="col">CITY</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Dakoata Rice</td>
+                <td>$36,728</td>
+                <td>Niger</td>
+                <td>Oud-turnhout</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Minerva Hooper</td>
+                <td>$23,789</td>
+                <td>Curacao</td>
+                <td>Sinaal-Waas</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Sage Rodriguez</td>
+                <td>$56,142</td>
+                <td>Netherlands</td>
+                <td>Balleux</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>Philip Chaney</td>
+                <td>$38,735</td>
+                <td>Koria, South</td>
+                <td>Overland Park</td>
+              </tr>
+              <tr>
+                <th scope="row">5</th>
+                <td>Doris Greene</td>
+                <td>$63,543</td>
+                <td>Malawl</td>
+                <td>Feldkirchen in Karnten</td>
+              </tr>
+              <tr>
+                <th scope="row">6</th>
+                <td>Moson Porter</td>
+                <td>$78,615</td>
+                <td>Chile</td>
+                <td>Gloucester</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+  </html>
+    <!-- <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script> -->
+  <!-- </body>
+</html> -->
